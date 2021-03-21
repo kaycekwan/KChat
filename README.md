@@ -1,6 +1,6 @@
 # KChat
 As an exercise using PowerShell to implement a multiple-client command-line chat program.
-To Run, in a PowerShell Window, Change the directory to the location where the PowerShell script KCSTcpServerClient_v1.0.15.ps1 is, and enter
+To Run, in a PowerShell Window, Change the directory to the location where the PowerShell script KChat.ps1 is, and enter
 . .\KChat.ps1
 As a Server, execute Start-KCSServer 9999 # any port number
 As a Client, execute Start-KCSClient "RemoteHost" 9999 # or "RemoteHost:9999", where RemoteHost is the Host or IP where "Server" is started.
